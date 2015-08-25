@@ -2,7 +2,7 @@
  * $compose
  * 
  * Fazer composição de funções é criar uma chamada de um conjunto de funções,
- * chamando a função seguinte, com resultados da função anterior
+ * chamando a função seguinte, com resultados da função anterior a funcao curry
  * 
  * @module $compose
  * @author Cleber de Moraes Gonçalves
