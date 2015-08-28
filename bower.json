@@ -1,0 +1,25 @@
+{
+  "name": "compose.Ninja.JS",
+  "version": "0.0.0",
+  "authors": [
+    "Cleber de Moraes Goncalves <cleber.programmer@hotmail.com>"
+  ],
+  "description": "Fazer composição de funções é criar uma chamada de um conjunto de funções, chamando a função seguinte, com resultados da função anterior",
+  "main": "compose.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bibizzy/compose.Ninja.JS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ninja.JS": "*",
+    "curry.Ninja.JS": "*"
+  }
+}

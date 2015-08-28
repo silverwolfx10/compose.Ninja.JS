@@ -11,7 +11,7 @@
  *        $map([1, 2, 3], $compose($add(1), $add(2)));
  *
  */
-Ninja.module('$compose', ['$curry'], function ($curry) {
+this.Ninja.module('$compose', ['$curry'], function ($curry) {
   
   /**
    * Fazer composição de funções é criar uma chamada de um conjunto de funções,
@@ -28,7 +28,7 @@ Ninja.module('$compose', ['$curry'], function ($curry) {
    * 
    */
   function compose(b, a) {
-    return function (x) { return b(a(x)); }
+    return function (x) { return b(a(x)); };
   }
   
   /**
@@ -37,4 +37,4 @@ Ninja.module('$compose', ['$curry'], function ($curry) {
    */
   return $curry(compose);
   
-})
+});
